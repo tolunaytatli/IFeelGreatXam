@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IFeelGreatXAM.MainPage">
+
+    <StackLayout Spacing="10" x:Name="layout">
+
+        <Label Text="Var1" VerticalOptions="Start" FontSize="Large"/>
+
+        <Entry x:Name="MaleRatio" Placeholder="Male ratio"/>
+
+
+        <Label Text="Var2" VerticalOptions="Start" FontSize="Large"/>
+
+        <Entry x:Name="MaleYesRatio"  Placeholder="Male Yes Ratio"/>
+
+
+        <Label Text="Var3" VerticalOptions="Start" FontSize="Large"/>
+
+        <Entry x:Name="FemaleYesRatio"  Placeholder="Female Yes Ratio"/>
+
+        
+
+        <Button x:Name="submit" Text="Calculate" BorderWidth="20" Clicked="submit_Clicked"/>
+        <Editor x:Name="ed1" Placeholder="" PlaceholderColor="Olive" />
+        <Editor x:Name="ed2" Placeholder="" PlaceholderColor="Olive" />
+    </StackLayout>
+
+</ContentPage>
